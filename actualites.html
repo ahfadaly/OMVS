@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Actualites</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- start contact header -->
+    <div class="conatct-header bg-white border-bottom pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="desc-bullhorn">
+                        <a href="#" class="text-decoration-none text-secondary">
+                            <i class="fa-solid fa-bullhorn"></i>
+                            <span class="mx-1">Appels d'offre</span>
+                            <i class="fa-solid fa-angle-right fa-sm"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="desc-conatct d-flex justify-content-between">
+                        <p><span class="me-1"><i class="fa-solid fa-location-dot"></i></span> Dakar-Fann, Sénégal</p>
+                        <a href="#"><span class="me-1"><i class="fa-solid fa-phone"></i></span>+221 33 859 81 82</a>
+                        <ul class="list-unstyled d-flex social-media">
+                            <li><a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End contact header -->
+
+    <!-- start Navbar -->
+    <header class="header bg-white">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand logo m-0" href="#"><img src="images/logo.jpg" alt="" class="img-fluid"></a>
+                <div class="button-md d-flex">
+                    <button class="btn nav-button d-block d-lg-none " type="submit">
+                        <span><i class="fa-solid fa-map-location-dot"></i></span>
+                        Cartographie des réalisations
+                    </button>
+                </div>
+                <div class="glass">
+                    <span class="text-secondary d-block d-lg-none fa-lg ms-2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </div>
+                <button class="navbar-toggler collapsed border-0 " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!-- <span class="close"><i class="fa-solid fa-xmark fa-xl"></i></span> -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ul-item">
+                        <li class="nav-item"><a class="nav-link" href="index.html">À propos de l’OMVS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="actualites.html"> Actualités</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Le fleuve Sénégal</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <form class="d-flex align-items-center">
+                        <div class="glass">
+                            <span class="text-secondary d-none d-lg-block">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                        </div>
+                        <button class="btn ms-3 w-100 nav-button d-none d-lg-block" type="submit">
+                            <span>
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </span>
+                            Cartographie des réalisations
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="conatct-header-md">
+        <div class="conatct-header border-top pt-3 d-block d-lg-none">
+            <div class="container">
+                <div class="desc-conatct d-flex justify-content-center justify-content-between">
+                    <ul class="list-unstyled d-flex social-media">
+                        <li><a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                    </ul>
+                    <a href="#"><span class="me-1"><i class="fa-solid fa-phone"></i></span>+221 33 859 81 82</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myOverlay" class="overlay-glass">
+        <span class="closebtn-search" title="Close Overlay">×</span>
+        <div class="overlay-content container">
+            <h2 class="text-white fw-bold fs-1">Chercher</h2>
+            <p class="text-white fw-bolder">Appuyez sur Entrée pour rechercher ou ESC pour fermer </p>
+            <form action="">
+                <div class="input-group mb-3">
+                    <span class="input-group-text bg-white text-secondary">
+                        <i class="fa fa-search"></i></span>
+                    <input type="text" class="form-control p-3" placeholder="Chercher.." name="">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Navbar  -->
+
+    <!-- start form-massage -->
+    <div class="form-massage border">
+        <div class="form-desc">
+            <p class="text-white">Veuillez remplir le formulaire ci-dessous et nous vous recontacterons dès que
+                possible.</p>
+        </div>
+        <form action="" class="bg-white">
+            <div class="mb-3">
+                <input type="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="* Name"
+                    required>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="" placeholder="Téléphone" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="" placeholder="* E-mail" required>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control textarea" id="" placeholder="* Massage" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+                <span class="me-2"><i class="fa-solid fa-paper-plane"></i></span>
+                Envoyer
+            </button>
+        </form>
+    </div>
+
+    <div class="massage-button">
+        <button class="btn text-white">
+            <svg fill="#FFF" viewBox="0 0 800 800" height="32px" width="32px" role="" alt="Icon du chat"
+                class="tawk-min-chat-icon">
+                <path fill-rule="" clip-rule=""
+                    d="M400 26.2c-193.3 0-350 156.7-350 350 0 136.2 77.9 254.3 191.5 312.1 15.4 8.1 31.4 15.1 48.1 20.8l-16.5 63.5c-2 7.8 5.4 14.7 13 12.1l229.8-77.6c14.6-5.3 28.8-11.6 42.4-18.7C672 630.6 750 512.5 750 376.2c0-193.3-156.7-350-350-350zm211.1 510.7c-10.8 26.5-41.9 77.2-121.5 77.2-79.9 0-110.9-51-121.6-77.4-2.8-6.8 5-13.4 13.8-11.8 76.2 13.7 147.7 13 215.3.3 8.9-1.8 16.8 4.8 14 11.7z">
+                </path>
+            </svg>
+        </button>
+    </div>
+    <!-- End form-massage -->
+
+    <!-- start actualites -->
+    <section class="actualites position-relative">
+        <div class="img-actualites">
+            <img src="images/svgexport-7.svg" alt="" class=" img-fluid img-to">
+        </div>
+        <div class="title">
+            <div class="container">
+                <h2 class=" text-white fs-1 fw-bolder pt-5">Catégorie : Actualités</h2>
+            </div>
+        </div>
+    </section>
+
+    <div class="recherche bg-light">
+        <div class=" container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="recherche-item mb-3">
+                        <div class="box-img">
+                            <img src="images/recherche.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="box-desc">
+                            <div class="recherche-desc p-3 bg-white">
+                                <h6>Actualités</h6>
+                                <h3>
+                                    <a href="#" class=" text-dark fw-bolder">
+                                        Accès à l’électricité: le Projet Manantali II enregistre des avancées
+                                        significatives
+                                    </a>
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="text-secondary d-flex">
+                                        <img src="images/svgexport-10.svg" alt="" class="me-2">
+                                        26 mars 2022
+                                    </a>
+                                    <span><i class="fa-solid fa-angle-right fa-sm ms-1"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="recherche-fixed position-relative">
+                        <aside>
+                            <h3 class="fw-bolder">Recherche</h3>
+                            <div class="input-group mb-3 border shadow-sm">
+                                <input type="text" class="form-control p-3 border-0" placeholder="Search for something">
+                                <span class="input-group-text bg-white text-secondary border-0">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
+                            <h3 class="fw-bolder my-5">Évènements à venir</h3>
+                            <h3 class="fw-bolder">Retrouvez-nous sur les réseaux sociaux</h3>
+                            <ul class="list-unstyled d-flex">
+                                <li><a href="#" class=""><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                                <li><a href="#" class=""><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                                <li><a href="#" class=""><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end actualites -->
+
+
+    <!-- start footer -->
+    <footer class="footer py-5">
+        <div class="border-bottom">
+            <div class="container">
+                <div class="col-xl-5 col-sm-12 text-center m-auto desc">
+                    <h5>Inscrivez-vous à notre Newsletter</h5>
+                    <input type="email" class="form-control border-0 bg-light p-2 my-3 shadow"
+                        placeholder="votre@adresse-email.com">
+                    <button class="btn w-100 shadow p-2" type="submit">Abonnez-vous</button>
+                </div>
+
+                <div class="row mt-5 pt-5">
+                    <div class="col-xl-3 col-md-6 social-media mb-3">
+                        <img src="images/logo.jpg" alt="" class="img-fluid w-25">
+                        <p class="text-18 fs-6 mt-2">Organisation pour la mise en valeur du fleuve Sénégal (OMVS)</p>
+                        <div class="d-flex text-white">
+                            <a href="#" class=""><i class="fa-brands fa-facebook fa-lg"></i></a>
+                            <a href="#" class=""><i class="fa-brands fa-twitter fa-lg"></i></a>
+                            <a href="#" class=""><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 mb-3">
+                        <ul class="list-unstyled list-footer item-link">
+                            <li><a href="#" class="link">À propos de l’OMVS</a></li>
+                            <li><a href="#" class="link">Organigramme</a></li>
+                            <li><a href="#" class="link">Le Centre de Documentation et des Archives</a></li>
+                            <li><a href="#" class="link">Les sociétés de gestion</a></li>
+                            <li><a href="#" class="link">Projets et programmes</a></li>
+                            <li><a href="#" class="text-white"><i
+                                        class="fa-solid fa-envelope-open-text me-2"></i>Webmail</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 mb-3">
+                        <ul class="list-unstyled list-footer d-none d-md-block">
+                            <li><a href="#" class="link">Calendrier des événements</a></li>
+                            <li><a href="#" class="link">Appels d’offre</a></li>
+                            <li><a href="#" class="link">Le fleuve Sénégal</a></li>
+                            <li><a href="#" class="link">Actualités</a></li>
+                            <li><a href="#" class="link">Bulletins hydrologiques</a></li>
+                            <li><a href="#" class="link">Médiathèque</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 mb-3">
+                        <a href="#" class="mt-2 position-relative">
+                            <img src="images/Capture-décran.png" alt="" class="img-fluid rounded-3 h-75">
+                            <div class="bg-white map-img d-flex align-items-center justify-content-between rounded-3">
+                                <h6 class="text-dark">Forum d’Echange Economique sur le Bassin du Fleuve Sénégal</h6>
+                                <span><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 text-center my-4 m-auto">
+            <p class="text-secondary">
+                © 2021 OMVS — Tous droits réservés. Made with
+                <i class="fa-solid fa-heart"></i>
+                in Dakar by The Galsen Geek
+            </p>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- start button scroll Top -->
+    <div class="container-fluid">
+        <a href="#"
+            class="scroll_top  d-flex justify-content-center align-items-center rounded-circle text-dark bg-light shadow-sm p-3">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </div>
+    <!-- End button scroll Top -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
